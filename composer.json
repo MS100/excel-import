@@ -1,0 +1,26 @@
+{
+    "name": "ms100/excel-import",
+    "type": "library",
+    "description": "the import Excel library",
+    "keywords": ["excel", "xls", "import", "export"],
+    "homepage": "https://github.com/MS100/excel-import",
+    "authors": [
+        {
+            "name": "Mengshuai",
+            "email": "ms1.0@qq.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "ext-xlswriter": "*"
+    },
+    "require-dev": {
+        "viest/php-ext-xlswriter-ide-helper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ms100\\ExcelImport\\": "src/"
+        }
+    }
+}
